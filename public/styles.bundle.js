@@ -6,10 +6,10 @@ webpackJsonp([2,4],{
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(671);
+var content = __webpack_require__(673);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(709)(content, {});
+var update = __webpack_require__(715)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -27,22 +27,22 @@ if(false) {
 
 /***/ }),
 
-/***/ 671:
+/***/ 673:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(672)();
+exports = module.exports = __webpack_require__(674)();
 // imports
 
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nhtml {\n  min-height: 100%;\n\n}\n\nbody {\n  min-height: 100%;\n    color: white;\n}\n\n/* Bootstrap navbar overwrites */\n\n.newmoon-navbar {\n  background-color: #1A2122/*#053C5E*/;\n  color: black;\n  padding: 15px;\n}\n\n/* Bootstrap Jumbotron overwrites */\n\n.newmoon-home-banner {\n  padding: 150px 0px 150px 0px;\n  height: 100%;\n}\n\n/* New Moon CSS*/\n.newmoon-home-background {\n  background: url(" + __webpack_require__(716) + ") no-repeat;\n  background-attachment: fixed;\n  background-size: 100%;\n  min-height: 100%;\n  min-width: 100%;\n}\n\n.newmoon-home-rowtop {\n  background-color: #053C5E;\n  margin-top: 75px;\n}\n\n.newmoon-row-opacity {\n  opacity: 0.97;\n  border-bottom: 1px solid white;\n}\n\n.newmoon-row-lightblue {\n  background-color: #1F7A8C;\n}\n\n.newmoon-row-white {\n  background-color: #BFDBF7;\n}\n\n.newmoon-row-title {\n  background-color: #1A2122;\n  padding: 5px;\n  border-bottom: 1px solid white;\n}\n.newmoon-row-blacktext {\n  color: #1A2122;\n}\n\n.newmoon-row-title h2 {\n  margin: 0px;\n\n}\n\n.newmoon-col {\n  padding: 20px;\n\n}\n\n.newmoon-footer {\n  background-color: #1A2122;\n}\n\n/* Font Awesome CSS overrides*/\n.fa-6x {\n    font-size: 6em;\n}\n\n.fa-7x {\n    font-size: 7em;\n}\n\n.fa-8x {\n    font-size: 8em;\n}\n\n.fa-9x {\n    font-size: 9em;\n}\n\n.fa-10x {\n    font-size: 10em;\n}\n\n.fa-11x {\n    font-size: 11em;\n}\n\n.fa-12x {\n    font-size: 12em;\n}\n\n.fa-13x {\n    font-size: 13em;\n}\n\n.fa-14x {\n    font-size: 14em;\n}\n\n.fa-15x {\n    font-size: 15em;\n}\n\n.fa-16x {\n    font-size: 16em;\n}\n\n.fa-17x {\n    font-size: 17em;\n}\n\n.fa-18x {\n    font-size: 18em;\n}\n\n.fa-19x {\n    font-size: 19em;\n}\n\n.fa-20x {\n    font-size: 20em;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 672:
+/***/ 674:
 /***/ (function(module, exports) {
 
 /*
@@ -99,7 +99,7 @@ module.exports = function() {
 
 /***/ }),
 
-/***/ 709:
+/***/ 715:
 /***/ (function(module, exports) {
 
 /*
@@ -352,7 +352,14 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 
-/***/ 713:
+/***/ 716:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "headderimage.jpg";
+
+/***/ }),
+
+/***/ 720:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(391);
@@ -360,5 +367,5 @@ module.exports = __webpack_require__(391);
 
 /***/ })
 
-},[713]);
+},[720]);
 //# sourceMappingURL=styles.bundle.map
