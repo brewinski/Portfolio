@@ -733,7 +733,7 @@ module.exports = "<app-navbar></app-navbar>\n<div class=\"container-fluid newmoo
 /***/ 686:
 /***/ (function(module, exports) {
 
-module.exports = "<h2 class=\"page-header\">Dashboard</h2>\n<p>Welcome to your dashboard.</p>\n"
+module.exports = "<div class=\"row newmoon-home-rowtop newmoon-row-opacity\">\n  <div class=\"container newmoon-home-banner\">\n    <div class=\"col-md-6 col-md-offset-3 newmoon-col\">\n      <h2 class=\"page-header\">Dashboard</h2>\n      <p>Welcome to your dashboard.</p>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -747,7 +747,7 @@ module.exports = "  <div class=\"row newmoon-home-rowtop newmoon-row-opacity\">\
 /***/ 688:
 /***/ (function(module, exports) {
 
-module.exports = "<h2 class=\"page-headder\">Login</h2>\n<form (submit)=\"onLoginSubmit()\">\n  <div class=\"form-group\">\n    <label>Username</label>\n    <input type=\"text\" class=\"form-control\" [(ngModel)]=\"username\" name=\"username\">\n  </div>\n  <div class=\"form-group\">\n    <label>Password</label>\n    <input type=\"text\" class=\"form-control\" [(ngModel)]=\"password\" name=\"password\">\n  </div>\n  <input type=\"submit\" class=\"btn btn-primary\" value=\"Login\">\n</form>\n"
+module.exports = "<div class=\"row newmoon-home-rowtop newmoon-row-opacity\">\n  <div class=\"container newmoon-home-banner\">\n    <div class=\"col-md-6 col-md-offset-3 newmoon-col\">\n      <h2 class=\"page-headder\">Login</h2>\n      <form (submit)=\"onLoginSubmit()\">\n        <div class=\"form-group\">\n          <label>Username</label>\n          <input type=\"text\" class=\"form-control\" [(ngModel)]=\"username\" name=\"username\">\n        </div>\n        <div class=\"form-group\">\n          <label>Password</label>\n          <input type=\"text\" class=\"form-control\" [(ngModel)]=\"password\" name=\"password\">\n        </div>\n        <input type=\"submit\" class=\"btn btn-primary\" value=\"Login\">\n      </form>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -775,14 +775,14 @@ module.exports = "<div class=\"row newmoon-footer newmoon-row-opacity\">\n  <div
 /***/ 692:
 /***/ (function(module, exports) {
 
-module.exports = "<div *ngIf=\"user\">\n  <h2 class=\"page-header\">{{user.name}}</h2>\n  <ul class=\"list-group\">\n    <li class=\"list-group-item\">Username: {{user.username}}</li>\n    <li class=\"list-group-item\">Email: {{user.email}}</li>\n  </ul>\n</div>\n"
+module.exports = "<div class=\"row newmoon-home-rowtop newmoon-row-opacity\">\n  <div class=\"container newmoon-home-banner\">\n    <div class=\"col-md-6 col-md-offset-3 newmoon-col\">\n      <div *ngIf=\"user\">\n        <h2 class=\"page-header\">{{user.name}}</h2>\n        <ul class=\"list-group\">\n          <li class=\"list-group-item\">Username: {{user.username}}</li>\n          <li class=\"list-group-item\">Email: {{user.email}}</li>\n        </ul>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
 /***/ 693:
 /***/ (function(module, exports) {
 
-module.exports = "<h2 class=\"page-headder\">Register</h2>\n<form (submit)=\"onRegisterSubmit()\">\n  <div class=\"form-group\">\n    <label>Name</label>\n    <input type=\"text\" [(ngModel)]=\"name\" name=\"name\" class=\"form-control\">\n  </div>\n  <div class=\"form-group\">\n    <label>Username</label>\n    <input type=\"text\" [(ngModel)]=\"username\" name=\"username\"  class=\"form-control\">\n  </div>\n  <div class=\"form-group\">\n    <label>Email</label>\n    <input type=\"email\" [(ngModel)]=\"email\" name=\"email\"  class=\"form-control\">\n  </div>\n  <div class=\"form-group\">\n    <label>Password</label>\n    <input type=\"password\" [(ngModel)]=\"password\" name=\"password\"  class=\"form-control\">\n  </div>\n  <input type=\"submit\" class=\"btn btn-primary\" value=\"Submit\">\n</form>\n"
+module.exports = "<div class=\"row newmoon-home-rowtop newmoon-row-opacity\">\n  <div class=\"container newmoon-home-banner\">\n    <div class=\"col-md-6 col-md-offset-3 newmoon-col\">\n      <h2 class=\"page-headder\">Register</h2>\n      <form (submit)=\"onRegisterSubmit()\">\n        <div class=\"form-group\">\n          <label>Name</label>\n          <input type=\"text\" [(ngModel)]=\"name\" name=\"name\" class=\"form-control\">\n        </div>\n        <div class=\"form-group\">\n          <label>Username</label>\n          <input type=\"text\" [(ngModel)]=\"username\" name=\"username\"  class=\"form-control\">\n        </div>\n        <div class=\"form-group\">\n          <label>Email</label>\n          <input type=\"email\" [(ngModel)]=\"email\" name=\"email\"  class=\"form-control\">\n        </div>\n        <div class=\"form-group\">\n          <label>Password</label>\n          <input type=\"password\" [(ngModel)]=\"password\" name=\"password\"  class=\"form-control\">\n        </div>\n        <input type=\"submit\" class=\"btn btn-primary\" value=\"Submit\">\n      </form>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
