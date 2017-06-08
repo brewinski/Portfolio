@@ -726,7 +726,7 @@ module.exports = ""
 /***/ 685:
 /***/ (function(module, exports) {
 
-module.exports = "<app-navbar></app-navbar>\n<div class=\"container-fluid newmoon-home-background\">\n  <flash-messages></flash-messages>\n  <router-outlet></router-outlet>\n  <app-navfooter></app-navfooter>\n</div>\n"
+module.exports = "<app-navbar></app-navbar>\n<div class=\"container-fluid newmoon-home-background\">\n  <flash-messages class=\"newmoon-row-lightblue newmoon-row-opacity text-center\"></flash-messages>\n  <router-outlet></router-outlet>\n  <app-navfooter></app-navfooter>\n</div>\n"
 
 /***/ }),
 
@@ -747,7 +747,7 @@ module.exports = "  <div class=\"row newmoon-home-rowtop newmoon-row-opacity\">\
 /***/ 688:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row newmoon-home-rowtop newmoon-row-opacity\">\n  <div class=\"container newmoon-home-banner\">\n    <div class=\"col-md-6 col-md-offset-3 newmoon-col\">\n      <h2 class=\"page-headder\">Login</h2>\n      <form (submit)=\"onLoginSubmit()\">\n        <div class=\"form-group\">\n          <label>Username</label>\n          <input type=\"text\" class=\"form-control\" [(ngModel)]=\"username\" name=\"username\">\n        </div>\n        <div class=\"form-group\">\n          <label>Password</label>\n          <input type=\"text\" class=\"form-control\" [(ngModel)]=\"password\" name=\"password\">\n        </div>\n        <input type=\"submit\" class=\"btn btn-primary\" value=\"Login\">\n      </form>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"row newmoon-home-rowtop newmoon-row-opacity\">\n  <div class=\"container newmoon-home-banner\">\n    <div class=\"col-md-6 col-md-offset-3 newmoon-col\">\n      <h2 class=\"page-headder\">Login</h2>\n      <form (submit)=\"onLoginSubmit()\">\n        <div class=\"form-group\">\n          <label>Username</label>\n          <input type=\"text\" class=\"form-control\" [(ngModel)]=\"username\" name=\"username\">\n        </div>\n        <div class=\"form-group\">\n          <label>Password</label>\n          <input type=\"password\" class=\"form-control\" [(ngModel)]=\"password\" name=\"password\">\n        </div>\n        <input type=\"submit\" class=\"btn btn-primary\" value=\"Login\">\n      </form>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
